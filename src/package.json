@@ -1,0 +1,30 @@
+{
+  "name": "discordsecretsrpc",
+  "version": "1.0.0",
+  "description": "A Magic Discord Client Using RPC",
+  "main": "scripts/custom/main.js",
+  "scripts": {
+    "default": "electron scripts/default/main.js",
+    "custom1": "electron scripts/custompreset1/main.js",
+    "custom2": "electron scripts/custompreset2/main.js",
+    "custom3": "electron scripts/custompreset3/main.js"
+  },
+  "author": "MinxterYT",
+  "license": "ISC",
+  "dependencies": {
+    "discord-rpc": "^3.1.3",
+    "electron": "^9.2.0",
+    "fs": "0.0.1-security",
+    "moment": "^2.27.0",
+    "node-fetch": "^2.6.0",
+    "open": "^7.1.0",
+    "snekfetch": "^3.6.4"
+  },
+  "browser": {
+    "net": false,
+    "ws": false,
+    "uws": false,
+    "erlpack": false,
+    "src/transports/IPC.js": false
+  }
+}

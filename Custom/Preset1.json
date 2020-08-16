@@ -1,0 +1,9 @@
+{
+  "details": "FIRST LINE",
+  "state": "SECOND LINE",
+  "largeImageKey": "large_image",
+  "largeImageText": "LARGE IMAGE HOVER TEXT",
+  "instance": false,
+  "skey":"small-image",
+  "stext":"SMALL IMAGE HOVER TEXT"
+}
